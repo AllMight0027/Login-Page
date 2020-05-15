@@ -1,0 +1,67 @@
+.body {
+    background:#191919;
+}
+
+.cd{
+    text-align: center;
+}
+
+*{
+    color: whitesmoke;
+}
+
+.button {
+    position: relative;
+    background-color: whitesmoke;
+    border: none;
+    font-size: 18px;
+    color: #191919;
+    padding: 2px;
+    width: 100px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button:after {
+    content: "";
+    background: yellow;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+.block{
+    width: 200px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+label{
+    font-size: 20px;
+}
+
+input{
+    color: black;
+}
+
+.logo{
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+}
